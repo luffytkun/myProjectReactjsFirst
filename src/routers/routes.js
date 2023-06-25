@@ -1,5 +1,6 @@
 import { HeaderOnly } from '~/layouts';
 import Home from '~/pages/Home';
+import Login from '~/pages/Auth/login.js'
 import config from '~/config';
 
 // Layouts
@@ -16,6 +17,7 @@ import config from '~/config';
 // Public routes
 const publicRoutes = [
     { path: config.routes.home, component: Home },
+    { path: config.routes.Login, component: Login},
     // { path: config.routes.following, component: Following },
     // { path: config.routes.live, component: Live },
     // { path: config.routes.profile, component: Profile },

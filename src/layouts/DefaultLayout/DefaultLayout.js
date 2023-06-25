@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../../layouts/components/Header";
 import PropTypes from "prop-types";
 
@@ -11,6 +12,7 @@ function DefaultLayout({ children }) {
         {/* <Sidebar /> */}
         <div>{children}</div>
       </div>
+      <Footer />
     </div>
   );
 }
